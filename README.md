@@ -19,3 +19,39 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在过去的30年里，用于风力发电系统（WTS）的解决方案也发生了巨大变化，出现了四到五代不同的技术，如图所示。通常，现有的风力机系统结构可以分为四个概念。这些概念之间的主要区别在于发电机的类型、电力电子、速度可控性以及限制气动功率的方式。
 ### 恒速风机（WT type A）
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如图所示，这种布局结构对应于上世纪80年代非常流行的所谓的丹麦概念。风力机配备了一个异步鼠笼式感应发电机（SCIG），通过加入一个软启动器可以实现更平稳的电网连接，在正常发电模式下会旁路软启动器。
+![image](https://github.com/howerdni/-/assets/28687425/d100b51f-6709-48e1-9655-03575263b25c)  
+图 恒速风机的软启动并网  
+这种早期的并网方案的缺点是需要配置无功补偿装置来补偿异步机的无功，由于转子的转速是不加任何控制的，这要求机械部分的强度足够大，以承受机械反向转矩，而风速的波动也会直接转化成电气的脉冲，这在比较弱的电网中可能导致电压的不稳定和效率的不稳定。
+### 变速风机-变阻转子（WT type B）
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如图 所示，这个概念也被称为OptiSlip（Vestas™），并在1990年代中期出现。它引入了可变转子阻力，从而限制风力发电机的速度，提高可控性。通常使用绕线式转子感应发电机（WRIG）和相应的电容补偿器，并通过软启动器将发电机直接连接到电网，与A型概念一样。这个概念的技术改进是，通过动态改变转子阻力可以部分调整风力发电机的转速。这个特性有助于减轻机械应力并使电力输出更加平稳。然而，在转子电阻中产生的恒定功耗是这个概念的一个重要缺点。
+![image](https://github.com/howerdni/-/assets/28687425/b4c7820b-a390-4d5f-9b0f-4840adc5d9e2)  
+图 变速风机带变阻转子的软启动并网  
+### 变速风机-部分功率换流（WT type C）
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前，这个概念是最成熟的解决方案，自世纪初以来已被广泛应用。如图6.8所示，采用了一个与双馈感应发电机（DFIG）配套的反变频电力变换器。DFIG的定子绕组直接连接到电网，而转子绕组通过电力变换器连接到电网，通常其容量为风力发电机容量的30%。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过使用电力变换器，可以灵活调节转子中的频率和电流，从而进一步扩展可变速范围，达到令人满意的水平。同时，电力变换器可以部分调节发电机的输出功率，改善电力质量并提供有限的电网支持。较小的变频器容量使得这个概念在成本方面具有吸引力。然而，其主要缺点是需要使用滑环，并在电网故障的情况下功率可控性具有一定的难度；这些劣势可能会抵消可靠性表现，并且可能无法满足未来的电网要求。
+### 变速风机-全功率换流（WT type D）
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另一个备受关注的概念，正在成为新开发和安装的风力发电机中越来越受欢迎，如图 所示。它引入了一个全功率变换器来连接电网和发电机的定子绕组；因此，所有由风力发电机产生的电力都可以进行调节。在这个概念中，目前被报导使用的技术已经涉及了AG、绕组转子同步发电机（WRSG）和永磁同步发电机（PMSG）。
+相对于基于DFIG的概念，这个解决方案的主要优势包括消除了滑环，更简单的结构（取消了变速箱），全功率和速度可控性，以及更好的电网支持能力。由于使用了全功率变换器，功率转换阶段的电压级别可以灵活调节。未来，电压可能会足够高，可以直接连接到电网，而无需庞大的低频变压器，这一优势可能是未来风力发电系统吸引人的特性之一。然而，更加紧张和昂贵的电力电子以及永磁材料的价格可能会对这个概念在进一步商业化方面带来一些不确定性。
+![image](https://github.com/howerdni/-/assets/28687425/a20128e1-0768-4ba2-9a7b-9f6fb1e5e8ff)  
+<p align="center">
+图 全功率换流器 
+</p> 
+### 不同风机系统的结构对比
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对比不同的风机系统解决方案揭示了成本与性能之间的矛盾。表 显示了四种涡轮概念的电网侧控制、成本、维护和内部涡轮性能的比较[11]。可以看出，由于使用了电力电子变流器，C型和D型风力涡轮系统在转速、控制带宽和交/直流功率传递方面比A型和B型方案实现了更好的功率可控性。此外，明显可见C型和D型风力涡轮概念在连接电网时具有许多重要特性，因此它们更适合与电网集成。考虑到近几十年来电力半导体器件的价格一直在不断降低，为了，C、D型号的结构将会取代A,B成为主流。   
+ 
+|System|Type A|Type B|Type C|Type D|
+|---|---|---|---|---|
+|Variable speed|No|No|Yes|Yes|
+|Control active power|No|No|Yes|Yes|
+|Control reactive power|Limited|Limited|Yes|Yes|
+|Short circuit (fault-active)|No|No|No/yes|Yes|
+|Short circuit power|Contribute|Contribute|Contribute|Limit|
+|Control bandwidth|1–10 s|100 ms|1 ms|0.5–1 ms|
+|Standby function|No|No|Yes+|Yes++|
+|Flicker (sensitive)|Yes|Yes|Yes|No|
+|Soft starter needed|No|No|Yes|Yes|
+|Rolling capacity on grid|Yes, partly|Yes, partly|Yes|Yes|
+|Reactive compensator (C)|Yes|Yes|No|No|
+|Island operation|No|No|Yes/no|Yes|
+|Investment|++|++|+|0|
+|Maintenance|++|++|0|+|
