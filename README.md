@@ -65,10 +65,23 @@
 ![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/87c7e3f5-aa8d-4a45-beb4-4c53aeaa5536)  
 <p align="center">
  Three-level neutral-point clamped back-to-back converter for wind turbine (3L-NPC BTB)
-</p> 
- ![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/363dbfc3-38e8-4f58-b911-9a0ab0aef771)  
+</p>
+
+![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/3e9b915f-88e9-4fe6-bbeb-430faed454a6)  
 <p align="center">
  Three-level H-bridge back-to-back converter for wind turbine (3L-HB BTB)
 </p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外还有模块化多电平的换流器（MMC），他具有可扩展性好，谐波很小，可以取消滤波器等优势，但是最大的功率可能受限，电容直流电压的波动可能因为发电机侧的交流频率比较低而波动大，这会要求电容的容量需求更大。   
+
+## 现代风机的控制和电网要求
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前讨论的风机控制主要是TypeC和TypeD类并网方案的风机，风机发出的有功，应该通过风机的机械部分去控制，同时整个控制系统应该满足调度的要求。更高级的控制还包括最大功率输出，故障穿越和点电网支撑的提供。
+![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/e809bd0a-078a-4529-8086-5c80165c9062)  
+<p align="center">
+ General control structure for modern wind turbines
+</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;变速风机的发电机电流，可以通过变流器控制，从而使得发电机转速调整到获得最大功率汲取的状态。而关于电网故障和支撑这方面，需要通过风机系统的各个子系统，例如网侧换流器，斩波电路，桨距角等。具体到更底层的控制的实现，例如电流控制，直流电压控稳定制，电网同步都能在换流器中实现，其中典型的控制环节是PI和PR控制（比例积分和比例谐振）。
+随着风机的渗透率提供，风机的技术更新迭代，目前很多国家的风机接入电网的规范规程都在更新。随着风机接入电网的电压等级越来越高，电网越来越将风机接入的要求和传统发电机看齐，一般来说，电网主要从可控性，电能质量，故障穿越和电网支撑这几个角度来对风机系统提出要求。
+
+
 
 
