@@ -57,3 +57,18 @@
 |Island operation|No|No|Yes/no|Yes|
 |Investment|++|++|+|0|
 |Maintenance|++|++|0|+|
+## 风机的电力变换器
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;变换器联系机侧和网侧，在机侧，其电流应该得到控制，以调节转矩进而调节风机的转速。这个控制，在正常运行时，即最大风能跟踪控制时，以及在故障时，都有助于有功功率的平衡。同时换流器也需要有能力调节发电机机端的基频附近变化的频率和电压幅值。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在网侧，换流器需要满足电网的要求，即功率上能控制无功的输出，有功能做到快速响应，频率和电压上能够维持一个恒定值，谐波能维持一个较小的值。
+### 风机变换器的拓扑结构
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大于两电平的变换器称为多电平变换器，常见的时3电平和5电平；从原理上可以分为中性点钳位和H桥两种大类。
+![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/87c7e3f5-aa8d-4a45-beb4-4c53aeaa5536)  
+<p align="center">
+ Three-level neutral-point clamped back-to-back converter for wind turbine (3L-NPC BTB)
+</p> 
+ ![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/363dbfc3-38e8-4f58-b911-9a0ab0aef771)  
+<p align="center">
+ Three-level H-bridge back-to-back converter for wind turbine (3L-HB BTB)
+</p>
+
+
