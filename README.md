@@ -124,11 +124,11 @@
 |$` \underline{E}_{s}^{ } `$: Induced emf in the stator|$` L_{\sigma r}^{'} `$:Rotor leakage inductance(H)|
 |$` \underline{E}_{rs}^{' } `$: Induced emf in the rotor|$` N_{s}^{ },N_{r}^{ } `$:Stator,rotor windings, number of turns per phase|  
 
-定义
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定义绕组的匝数比：
 ```math
-u=\frac{N_{s}}{N_{r}}
+u=\frac{N_{s}}{N_{r}}\tag {1.4}
 ```
-于是有
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;于是定转子的磁链有如下关系：
 ```math
-\underline{E}_{rs}^{' }=s\frac{E_{s}}{u}
+\underline{E}_{rs}^{' }=s\frac{\underline{E}_{s}}{u}\tag {1.5}
 ```
