@@ -93,15 +93,15 @@
 ### 1.7.2、稳态方程
 定子的电气量角速度，转子的电气量角速度和转子的电气速度之间的关系如下：
 ```math
-\omega_{s}=\omega_{r}+\omega_{m}\tag 1.1
+\omega_{s}=\omega_{r}+\omega_{m}\tag{1.1}
 ```
 转子的电气速度和机械速度的关系如下：
 ```math
-\omega_{m}=p\Omega_{m}\tag 1.2
+\omega_{m}=p\Omega_{m}\tag {1.2}
 ```
 以上单位都是rad/s。转差率如下表示：
 ```math
-\frac{\omega_{s}-\omega_{m}}{\omega_{s}} = \frac{\omega_{r}}{\omega_{s}}\tag 1.3
+\frac{\omega_{s}-\omega_{m}}{\omega_{s}} = \frac{\omega_{r}}{\omega_{s}}\tag {1.3}
 ```
 定子电气上直接和电网连接，所以$`\omega_{s}`$是恒定值（理论上），也就是同步速，显然，$`\omega_{r}`$取决于转子的转速，这样，按照转子的电气速度和同步速之间的关系，可以分为三种运行模式：
 ```math
