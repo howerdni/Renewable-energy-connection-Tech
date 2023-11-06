@@ -120,3 +120,6 @@
 |$`\underline{V_{s} }`$: Supplied stator voltage|$`R_{s}`$:Stator resistance($`\Omega `$)|
 |$` \underline{V}_{r}^{'} `$: Supplied stator voltage|$` R_{r}^{'} `$:Rotor resistance($`\Omega `$)|
 |$` \underline{I}_{s}^{} `$: Stator current|$` L_{m}^{} `$:Mutual inductance(H)|
+|$` \underline{I}_{r}^{'} `$: Rotor current|$` L_{\sigma s}^{} `$:Stator leakage inductance(H)|
+|$` \underline{E}_{s}^{ } `$: Induced emf in the stator|$` L_{\sigma r}^{'} `$:Rotor leakage inductance(H)|
+|$` \underline{E}_{rs}^{' } `$: Induced emf in the rotor|$` N_{s}^{ },N_{r}^{ } `$:Stator,rotor windings, number of turns per phase|
