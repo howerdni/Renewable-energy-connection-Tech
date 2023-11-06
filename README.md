@@ -122,5 +122,13 @@
 |$` \underline{I}_{s}^{} `$: Stator current|$` L_{m}^{} `$:Mutual inductance(H)|
 |$` \underline{I}_{r}^{'} `$: Rotor current|$` L_{\sigma s}^{} `$:Stator leakage inductance(H)|
 |$` \underline{E}_{s}^{ } `$: Induced emf in the stator|$` L_{\sigma r}^{'} `$:Rotor leakage inductance(H)|
-|$` \underline{E}_{rs}^{' } `$: Induced emf in the rotor|$` N_{s}^{ },N_{r}^{ } `$:Stator,rotor windings, number of turns per phase|
-定义$`u=\frac{N_{s}}{N_{r}}`$,于是有$`\underline{E}_{rs}^{' }=s\frac{E_{s}}{u}`$
+|$` \underline{E}_{rs}^{' } `$: Induced emf in the rotor|$` N_{s}^{ },N_{r}^{ } `$:Stator,rotor windings, number of turns per phase|  
+
+定义
+```math
+u=\frac{N_{s}}{N_{r}}
+```
+于是有
+```math
+\underline{E}_{rs}^{' }=s\frac{E_{s}}{u}
+```
