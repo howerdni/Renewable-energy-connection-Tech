@@ -139,5 +139,5 @@ u=\frac{N_{s}}{N_{r}}\tag {1.4}
 </p>
 为了分析方便，一般将参数按照下面转换后表示：
 ```math
-R_{r}=R_{r}^{'}u_{}^{2}  
+\underline{E}_{rs}^{' }=s\frac{\underline{E}_{s}}{u}\tag {1.5}
 ```
