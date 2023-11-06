@@ -137,11 +137,9 @@ u=\frac{N_{s}}{N_{r}}\tag {1.4}
 <p align="center">
  One-phase steady-state equivalent electric circuit of the DFIM
 </p>  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了分析方便，一般将参数按照下面转换后表示：
 ```math
 R_{r}=R_{r}^{'}u_{}^{2}  \quad  L_{\sigma r}=L_{\sigma r}^{'}u_{}^{2}  \quad  \underline{I}_{r}^{'}=\frac{\underline{I}_{r}^{'}}{u} \quad \underline{I}_{r}=\underline{I}_{r}{'}u \quad  E_{rs}=E_{rs}^{'}u
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定子的电气量角速度，转子的电气量角速度和转子的电气速度之间的关系如下：
-```math
-\omega_{s}=\omega_{r}+\omega_{m}\tag{1.1}
-```
+也就是带撇的参数是
