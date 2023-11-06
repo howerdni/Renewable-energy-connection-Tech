@@ -113,4 +113,9 @@
 ```math
 \omega_{m}=\omega_{s}\Longrightarrow \omega_{r}=0 \Longrightarrow s=0 \Longrightarrow 同步模式
 ```
-
+下面推导稳态方程：
+定义电气量：
+|Electric magnitudes of the stator and rotor|Electric parameters of the stator and rotor:|
+|---|---|
+|$`\underline{V_{s} }`$: Supplied stator voltage|$`R_{s}`$:Stator resistance(\Omega )|
+|Control active power|No|
