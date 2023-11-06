@@ -137,7 +137,7 @@ u=\frac{N_{s}}{N_{r}}\tag {1.4}
 <p align="center">
  One-phase steady-state equivalent electric circuit of the DFIM
 </p>
-为了分析方便，一般将参数按照下面转换后表示：
+为了分析方便，一般将参数按照下面转换后表示：  
 ```math
-\underline{E}_{rs}^{' }=s\frac{\underline{E}_{s}}{u}\tag {1.5}
+R_{r}=R_{r}^{'}u_{}^{2}  \quad  L_{\sigma r}=L_{\sigma r}^{'}u_{}^{2}  \quad  \underline{I}_{r}^{'}=\frac{\underline{I}_{r}^{'}}{u} \quad \underline{I}_{r}=\underline{I}_{r}{'}u \quad  E_{rs}=E_{rs}^{'}u
 ```
