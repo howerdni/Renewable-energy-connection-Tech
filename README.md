@@ -106,7 +106,11 @@
 定子电气上直接和电网连接，所以$`\omega_{s}`$是恒定值（理论上），也就是同步速，显然，$`\omega_{r}`$取决于转子的转速，这样，按照转子的电气速度和同步速之间的关系，可以分为三种运行模式：
 ```math
 \omega_{m}<\omega_{s}\Longrightarrow \omega_{r}>0 \Longrightarrow s>0 \Longrightarrow 次同步模式
+```
+```math
 \omega_{m}>\omega_{s}\Longrightarrow \omega_{r}<0 \Longrightarrow s<0 \Longrightarrow 超同步模式
+```
+```math
 \omega_{m}=\omega_{s}\Longrightarrow \omega_{r}=0 \Longrightarrow s=0 \Longrightarrow 同步模式
 ```
 
