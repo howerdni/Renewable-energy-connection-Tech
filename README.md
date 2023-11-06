@@ -117,5 +117,5 @@
 定义电气量：
 |Electric magnitudes of the stator and rotor|Electric parameters of the stator and rotor:|
 |---|---|
-|$`\underline{V_{s} }`$: Supplied stator voltage|$`R_{s}`$:Stator resistance(\Omega )|
-|Control active power|No|
+|$`\underline{V_{s} }`$: Supplied stator voltage|$`R_{s}`$:Stator resistance($`\Omega `$)|
+|$` \underline{V}_{r}^{'} `$: Supplied stator voltage|$` R_{r}^{'} `$:Rotor resistance($`\Omega `$)|
