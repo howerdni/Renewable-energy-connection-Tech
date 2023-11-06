@@ -119,3 +119,4 @@
 |---|---|
 |$`\underline{V_{s} }`$: Supplied stator voltage|$`R_{s}`$:Stator resistance($`\Omega `$)|
 |$` \underline{V}_{r}^{'} `$: Supplied stator voltage|$` R_{r}^{'} `$:Rotor resistance($`\Omega `$)|
+|$` \underline{I}_{s}^{} `$: Stator current|$` L_{m}^{} `$:Mutual inductance(H)|
