@@ -150,6 +150,3 @@ reduced to the stator
 </p> 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;且进一步变换，可以使得定子侧和转子侧的频率一致，于是有：
-
-
-
