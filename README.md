@@ -140,4 +140,4 @@ u=\frac{N_{s}}{N_{r}}\tag {1.4}
 为了分析方便，一般将参数按照下面转换后表示：
 ```math
 R_{r}=R_{r}^{'}u_{}^{2}  \quad  L_{\sigmar}=L_{\sigmar}^{'}u_{}^{2}  \quad  \underline{I}_{r}^{'}=\frac{\underline{I}_{r}^{'}}{u} \quad \underline{I}_{r}=\underline{I}_{r}{'}u \quad  E_{rs}=E_{rs}^{'}u
-
+```
