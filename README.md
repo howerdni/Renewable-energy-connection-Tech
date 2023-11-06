@@ -142,4 +142,14 @@ u=\frac{N_{s}}{N_{r}}\tag {1.4}
 ```math
 R_{r}=R_{r}^{'}u_{}^{2}  \quad  L_{\sigma r}=L_{\sigma r}^{'}u_{}^{2}  \quad  \underline{I}_{r}^{}=\frac{\underline{I}_{r}^{'}}{u} \quad \underline{I}_{r}=\underline{I}_{r}{'}u \quad  E_{rs}=E_{rs}^{'}u
 ```
-也就是带撇的参数是
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;也就是带撇的参数是转子侧的实际参数，不带撇的参数是折算到定子侧的参数。于是，可以绘出等效单相稳态模型：
+![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/e12829bc-dd8f-410b-a048-8e87033a5d9f)  
+<p align="center">
+ One-phase steady-state equivalent electric circuit of the DFIM with rotor parameters, current and voltages
+reduced to the stator
+</p> 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;且进一步变换，可以使得定子侧和转子侧的频率一致，于是有：
+
+
+
