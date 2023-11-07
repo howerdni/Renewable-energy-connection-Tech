@@ -168,7 +168,8 @@ reduced to the stator
 <p align="center">
 One-phase steady-state equivalent electric circuit of the DFIM referred to the stator
 </p>
-![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/5f65513d-bf0f-4f48-80ea-e902de316e55)
+
+![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/41c615db-267c-44af-bb91-920454125cec)
 <p align="center">
 Phasor diagram in generator mode at Qs > 0 of a multi-megawatt DFIM, (a) s > 0 and (b) s < 0 
 </p>
