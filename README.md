@@ -193,4 +193,9 @@ P_{s} = 3Re\left \{ \underline{V}_{s}\underline{I}_{s}^{*} \right \}  \quad  P_{
 P_{s} = 3Im\left \{ \underline{V}_{s}\underline{I}_{s}^{*} \right \}  \quad  P_{r} = 3Im\left \{ \underline{V}_{r}\underline{I}_{r}^{*} \right \}  \tag {1.15}  
 ```
 把定转子的电压方程代入
-
+```math
+P_{s}=3R_{s}\left | \underline{I} _{s} \right |^{2}+3\omega_{s}L_{m}Im\left \{ \underline{I}_{s}\underline{I}_{r}^{*} \right \} \quad P_{r}=3R_{r}\left | \underline{I} _{r} \right |^{2}-3s\omega_{s}L_{m}Im\left \{ \underline{I}_{s}\underline{I}_{r}^{*} \right \}\tag {1.16}  
+```
+```math
+Q_{s}=3\omega_{s}L_{s}\left | \underline{I} _{s} \right |^{2}+3\omega_{s}L_{m}Re\left \{ \underline{I}_{r}\underline{I}_{s}^{*} \right \} \quad Q_{r}=3s\omega_{s}\left | \underline{I} _{r} \right |^{2}+3s\omega_{s}L_{m}Re\left \{ \underline{I}_{s}\underline{I}_{r}^{*} \right \}\tag {1.16}  
+```
