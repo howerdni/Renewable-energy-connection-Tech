@@ -113,8 +113,8 @@
 ```math
 \omega_{m}=\omega_{s}\Longrightarrow \omega_{r}=0 \Longrightarrow s=0 \Longrightarrow 同步模式
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面推导稳态方程：
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定义电气量：
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面推导稳态方程：  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定义电气量（下划线表示相量）：
 |Electric magnitudes of the stator and rotor|Electric parameters of the stator and rotor:|
 |---|---|
 |$`\underline{V_{s} }`$: Supplied stator voltage|$`R_{s}`$:Stator resistance($`\Omega `$)|
