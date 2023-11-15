@@ -197,5 +197,14 @@ P_{s} = 3Im\left \{ \underline{V}_{s}\underline{I}_{s}^{*} \right \}  \quad  P_{
 P_{s}=3R_{s}\left | \underline{I} _{s} \right |^{2}+3\omega_{s}L_{m}Im\left \{ \underline{I}_{s}\underline{I}_{r}^{*} \right \} \quad P_{r}=3R_{r}\left | \underline{I} _{r} \right |^{2}-3s\omega_{s}L_{m}Im\left \{ \underline{I}_{s}\underline{I}_{r}^{*} \right \}\tag {1.16}  
 ```
 ```math
-Q_{s}=3\omega_{s}L_{s}\left | \underline{I} _{s} \right |^{2}+3\omega_{s}L_{m}Re\left \{ \underline{I}_{r}\underline{I}_{s}^{*} \right \} \quad Q_{r}=3s\omega_{s}\left | \underline{I} _{r} \right |^{2}+3s\omega_{s}L_{m}Re\left \{ \underline{I}_{s}\underline{I}_{r}^{*} \right \}\tag {1.16}  
+Q_{s}=3\omega_{s}L_{s}\left | \underline{I} _{s} \right |^{2}+3\omega_{s}L_{m}Re\left \{ \underline{I}_{r}\underline{I}_{s}^{*} \right \} \quad Q_{r}=3s\omega_{s}\left | \underline{I} _{r} \right |^{2}+3s\omega_{s}L_{m}Re\left \{ \underline{I}_{s}\underline{I}_{r}^{*} \right \}\tag {1.17}  
 ```
+从机械方程方面看，功率和转矩的关系如下：
+```math
+P_{mec}=T_{em}\omega_{m}=T_{em}\frac{\omega }{p} \tag {1.18}
+```  
+将1.16代入1.18，可以得到转矩公式（依赖于参数和电流）：
+```math
+T_{em}=3pL_{m}\left \{ \underline{I}_{r}^* \underline{I}_{s} \right \} \tag {1.19}
+```  
+
