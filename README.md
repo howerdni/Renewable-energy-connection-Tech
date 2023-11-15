@@ -141,7 +141,7 @@ u=\frac{N_{s}}{N_{r}}\tag {1.4}
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了分析方便，一般将参数按照下面转换后表示：
 ```math
-R_{r}=R_{r}^{'}u_{}^{2}  \quad  L_{\sigma r}=L_{\sigma r}^{'}u_{}^{2}  \quad  \underline{I}_{r}^{}=\frac{\underline{I}_{r}^{'}}{u} \quad \underline{I}_{r}=\underline{I}_{r}{'}u \quad  E_{rs}=E_{rs}^{'}u\tag {1.6}
+R_{r}=R_{r}^{'}u_{}^{2}  \quad  L_{\sigma r}=L_{\sigma r}^{'}u_{}^{2}  \quad  \underline{I}_{r}^{}=\frac{\underline{I}_{r}^{'}}{u} \quad \underline{I}_{r}=\underline{I}_{r}{'}u \quad  E_{rs}=E_{rs}^{'}u\tag {1.6}  
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;也就是带撇的参数是转子侧的实际参数，不带撇的参数是折算到定子侧的参数。于是，可以绘出等效单相稳态模型：
 ![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/e12829bc-dd8f-410b-a048-8e87033a5d9f)  
@@ -153,17 +153,18 @@ reduced to the stator
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;且进一步变换，可以使得定子侧和转子侧的频率一致，于是有：
 电压方程： 
 ```math
-\underline{V}_{s}^{}=R_{s}\underline{I}_{s}+j\omega_{s}L_{\sigma s}\underline{I}_{s}+j\omega_{s}L_{m}(\underline{I}_{s}+\underline{I}_{r})\tag {1.8}
+\underline{V}_{s}^{}=R_{s}\underline{I}_{s}+j\omega_{s}L_{\sigma s}\underline{I}_{s}+j\omega_{s}L_{m}(\underline{I}_{s}+\underline{I}_{r})\tag {1.8}  
 ```
 ```math
-\frac{\underline{V}_{r}^{}}{s}=\frac{R_{r}}{s}\underline{I}_{r}+j\omega_{s}L_{\sigma r}\underline{I}_{r}+j\omega_{s}L_{m}\tag {1.9}(\underline{I}_{s}+\underline{I}_{r})
+\frac{\underline{V}_{r}^{}}{s}=\frac{R_{r}}{s}\underline{I}_{r}+j\omega_{s}L_{\sigma r}\underline{I}_{r}+j\omega_{s}L_{m}\tag {1.9} 
+ (\underline{I}_{s}+\underline{I}_{r})
 ```
 磁链方程： 
 ```math
-\underline{\Psi }_{s}=L_{m}(\underline{I}_{s}+\underline{I}_{r})+L_{\sigma s}\underline{I}_{s}=L_{s}\underline{I}_{s}+L_{m}\underline{I}_{r}\tag {1.10}
+\underline{\Psi }_{s}=L_{m}(\underline{I}_{s}+\underline{I}_{r})+L_{\sigma s}\underline{I}_{s}=L_{s}\underline{I}_{s}+L_{m}\underline{I}_{r}\tag {1.10}  
 ```
 ```math
-\underline{\Psi }_{r}=L_{m}(\underline{I}_{s}+\underline{I}_{r})+L_{\sigma r}\underline{I}_{r}=L_{m}\underline{I}_{s}+L_{r}\underline{I}_{r}\tag {1.11}
+\underline{\Psi }_{r}=L_{m}(\underline{I}_{s}+\underline{I}_{r})+L_{\sigma r}\underline{I}_{r}=L_{m}\underline{I}_{s}+L_{r}\underline{I}_{r}\tag {1.11}  
 ```
 ![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/c7639f82-b1c6-40ba-a136-d163cc6a11f8)
 <p align="center">
@@ -178,18 +179,18 @@ Phasor diagram in generator mode at Qs > 0 of a multi-megawatt DFIM, (a) s > 0 a
 #### 1.7.3.2、潮流，转矩方程
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DFIM的平衡表现在（以马达模式观察）他的定子转子的功率输出之和等于轴上的机械功率加定子转子的铜损。  
 ```math
-P_{s}+P_{r}=P_{cus}+P_{cur}+P_{m}=3R_{s}\left | \underline{I}_{s}\right | ^{2}+3R_{r}\left | \underline{I}_{r}\right | ^{2}+P_{m}\tag {1.12}
+P_{s}+P_{r}=P_{cus}+P_{cur}+P_{m}=3R_{s}\left | \underline{I}_{s}\right | ^{2}+3R_{r}\left | \underline{I}_{r}\right | ^{2}+P_{m}\tag {1.12}  
 ```
 $`P_{s}`$和$`P_{r}`$是正数就表示他们是被DFIM吸收的功率，$`P_{m}`$是正数表示他是马达通过轴输出一个功率。这是马达视角，也可以是发电机视角，那么$`P_{m}`$就是负数了。效率可以按照下面公式计算：
 ```math
-\eta = \frac{P_{m}}{P_{s}+P_{r}} \quad \eta = \frac{P_{s}+P_{r}}{P_{m}}\tag {1.13}
+\eta = \frac{P_{m}}{P_{s}+P_{r}} \quad \eta = \frac{P_{s}+P_{r}}{P_{m}}\tag {1.13}  
 ```
 那么有功和无功的计算公式如下：
 ```math
-P_{s} = 3Re\left \{ \underline{V}_{s}\underline{I}_{s}^{*} \right \}  \quad  P_{r} = 3Re\left \{ \underline{V}_{r}\underline{I}_{r}^{*} \right \}  \tag {1.14}
+P_{s} = 3Re\left \{ \underline{V}_{s}\underline{I}_{s}^{*} \right \}  \quad  P_{r} = 3Re\left \{ \underline{V}_{r}\underline{I}_{r}^{*} \right \}  \tag {1.14}  
 ```  
 ```math
-P_{s} = 3Im\left \{ \underline{V}_{s}\underline{I}_{s}^{*} \right \}  \quad  P_{r} = 3Im\left \{ \underline{V}_{r}\underline{I}_{r}^{*} \right \}  \tag {1.15}
+P_{s} = 3Im\left \{ \underline{V}_{s}\underline{I}_{s}^{*} \right \}  \quad  P_{r} = 3Im\left \{ \underline{V}_{r}\underline{I}_{r}^{*} \right \}  \tag {1.15}  
 ```
 把定转子的电压方程代入
 
