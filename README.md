@@ -184,3 +184,7 @@ $`P_{s}`$和$`P_{r}`$是正数就表示他们是被DFIM吸收的功率，$`P_{m}
 ```math
 \eta = \frac{P_{m}}{P_{s}+P_{r}} \quad \eta = \frac{P_{s}+P_{r}}{P_{m}}
 ```
+那么有功和无功的计算公式如下：
+```math
+P_{s} = 3Re\left \{ \underline{V}_{s}\underline{I}_{s}^{*} \right \}  \quad  P_{s} = 3Re\left \{ \underline{V}_{r}\underline{I}_{r}^{*}
+```
