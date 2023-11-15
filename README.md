@@ -91,6 +91,7 @@
 </p>
 
 ### 1.7.2、稳态方程
+#### 1.7.2.1 电气方程
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定子的电气量角速度，转子的电气量角速度和转子的电气速度之间的关系如下：
 ```math
 \omega_{s}=\omega_{r}+\omega_{m}\tag{1.1}
@@ -171,9 +172,15 @@ One-phase steady-state equivalent electric circuit of the DFIM referred to the s
 
 ![image](https://github.com/howerdni/Renewable-energy-connection-Tech/assets/28687425/41c615db-267c-44af-bb91-920454125cec)
 <p align="center">
-Phasor diagram in generator mode at Qs > 0 of a multi-megawatt DFIM, (a) s > 0 and (b) s < 0 
+Phasor diagram in generator mode at Qs > 0 of a multi-megawatt DFIM, (a) s > 0 and (b) s < 0 (a)是次同步速运行（b）是超同步速运行
 </p>
 
-
-
-
+#### 1.7.3.2、潮流，转矩方程
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DFIM的平衡表现在（以马达模式观察）他的定子转子的功率输出之和等于轴上的机械功率加定子转子的铜损。  
+```math
+P_{s}+P_{r}=P_{cus}+P_{cur}+P_{m}=3R_{s}\left | \underline{I}_{s}\right | ^{2}+3R_{r}\left | \underline{I}_{r}\right | ^{2}+P_{m}
+```
+$`P_{s}`$和$`P_{r}`$是正数就表示他们是被DFIM吸收的功率，$`P_{m}`$是正数表示他是马达通过轴输出一个功率。这是马达视角，也可以是发电机视角，那么$`P_{m}`$就是负数了。效率可以按照下面公式计算：
+```math
+\eta = \frac{P_{m}}{P_{s}+P_{r}} \quad \eta = \frac{P_{s}+P_{r}}{P_{m}}
+```
