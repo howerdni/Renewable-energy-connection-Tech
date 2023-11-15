@@ -201,10 +201,10 @@ Q_{s}=3\omega_{s}L_{s}\left | \underline{I} _{s} \right |^{2}+3\omega_{s}L_{m}Re
 ```
 从机械方程方面看，功率和转矩的关系如下：
 ```math
-P_{mec}=T_{em}\omega_{m}=T_{em}\frac{\omega }{p} \tag {1.18}
-```  
+P_{mec}=T_{em}\omega_{m}=T_{em}\frac{\omega }{p} \tag {1.18}  
+```   
 将1.16代入1.18，可以得到转矩公式（依赖于参数和电流）：
 ```math
-T_{em}=3pL_{m}\left \{ \underline{I}_{r}^* \underline{I}_{s} \right \} \tag {1.19}
-```  
+T_{em}=3pL_{m}\left \{ \underline{I}_{r}^* \underline{I}_{s} \right \} \tag {1.19}  
+```   
 
