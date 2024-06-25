@@ -205,6 +205,6 @@ P_{mec}=T_{em}\Omega_{m}=T_{em}\frac{\omega_{m} }{p} \tag {1.18}
 ```   
 将1.16代入1.18，可以得到转矩公式（依赖于参数和电流）：
 ```math
-T_{em}=3pL_{m}\left \ Im{ \underline{I}_{r}^* \underline{I}_{s} \right \} \tag {1.19}  
+T_{em}=3pL_{m}Im\left \{ \underline{I}_{r}^* \underline{I}_{s} \right \} \tag {1.19}  
 ```   
 
