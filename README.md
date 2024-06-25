@@ -206,5 +206,10 @@ P_{mec}=T_{em}\Omega_{m}=T_{em}\frac{\omega_{m} }{p} \tag {1.18}
 将1.16代入1.18，可以得到转矩公式（依赖于参数和电流）：
 ```math
 T_{em}=3pL_{m}Im\left \{ \underline{I}_{r}^* \underline{I}_{s} \right \} \tag {1.19}  
-```   
+```
+如果将电流变量以磁链变量表达，即将1.10，1.11式带入1.19，可以得到以磁链表达的转矩公式：
+```math
+T_{em}=3p\frac{L_{m} }{L_{s}}Im\left \{\Psi _{s}I_{r}^*\right \} = 3pIm\left \{\Psi _{s}^*I_{s}\right \} = 3pIm\left \{\Psi _{r}I_{r}^*\right \}
+=3p\frac{L_{m} }{L_{r}}pIm\left \{\Psi _{r}^*I_{s}\right \}=3\frac{L_{m} }{\sigma L_{r}L_{s}}pIm{\Psi _{r}^*\Psi _{s}\right \}
+```
 
